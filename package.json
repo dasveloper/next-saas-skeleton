@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@magic-sdk/admin": "1.0.0",
+    "cookie": "0.4.0",
+    "iron-session": "^6.0.5",
+    "magic-sdk": "1.0.1",
+    "mongoose": "^6.2.4",
+    "next": "latest",
+    "next-connect": "^0.12.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "0.5.5"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "12.1.0",
+    "eslint-import-resolver-alias": "^1.1.2"
+  }
+}
